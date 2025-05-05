@@ -196,7 +196,9 @@ public class SquareMatrix : ICloneable, IComparable<SquareMatrix>
         for (int column = 0; column < _size; ++column)
         {
           if (_matrix[row, column] != other._matrix[row, column])
+          {
             return false;
+          }
         }
       }
       return true;

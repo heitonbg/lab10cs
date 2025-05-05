@@ -52,7 +52,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exceptions.cs" />
+    <Compile Include="Exceptions\InvalidMatrixOperationException.cs" />
+    <Compile Include="Exceptions\MatrixSizeMismatchException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SquareMatrix.cs" />
